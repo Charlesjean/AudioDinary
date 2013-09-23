@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38112DA817ED9DE600725487 /* psd-microphone-icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 38112DA717ED9DE600725487 /* psd-microphone-icon-small.png */; };
+		38112DAA17EDA22500725487 /* psd-microphone-icon-small2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38112DA917EDA22500725487 /* psd-microphone-icon-small2.png */; };
+		38196ABF17DACA3100F139A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38196ABE17DACA3100F139A8 /* UIKit.framework */; };
+		38196AC117DACA3100F139A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38196AC017DACA3100F139A8 /* Foundation.framework */; };
+		38196AC317DACA3100F139A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38196AC217DACA3100F139A8 /* CoreGraphics.framework */; };
+		38196AC917DACA3100F139A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38196AC717DACA3100F139A8 /* InfoPlist.strings */; };
+		38196ACB17DACA3100F139A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196ACA17DACA3100F139A8 /* main.m */; };
+		38196ACF17DACA3100F139A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196ACE17DACA3100F139A8 /* AppDelegate.m */; };
+		38196AD117DACA3100F139A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38196AD017DACA3100F139A8 /* Default.png */; };
+		38196AD317DACA3200F139A8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38196AD217DACA3200F139A8 /* Default@2x.png */; };
+		38196AD517DACA3200F139A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38196AD417DACA3200F139A8 /* Default-568h@2x.png */; };
+		38196AD817DACA3200F139A8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38196AD617DACA3200F139A8 /* MainStoryboard.storyboard */; };
+		38196ADB17DACA3200F139A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196ADA17DACA3200F139A8 /* ViewController.m */; };
+		38196AE317DB678500F139A8 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38196AE217DB678500F139A8 /* TapkuLibrary.bundle */; };
+		38196AF217DB67F400F139A8 /* NSDate+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AE517DB67F400F139A8 /* NSDate+TKCategory.m */; };
+		38196AF317DB67F400F139A8 /* TKCalendarMonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AE717DB67F400F139A8 /* TKCalendarMonthTableViewController.m */; };
+		38196AF417DB67F400F139A8 /* TKCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AE917DB67F400F139A8 /* TKCalendarMonthView.m */; };
+		38196AF517DB67F400F139A8 /* TKCalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AEB17DB67F400F139A8 /* TKCalendarMonthViewController.m */; };
+		38196AF617DB67F400F139A8 /* TKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AED17DB67F400F139A8 /* TKGlobal.m */; };
+		38196AF717DB67F400F139A8 /* UIImage+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AEF17DB67F400F139A8 /* UIImage+TKCategory.m */; };
+		38196AF817DB67F400F139A8 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AF117DB67F400F139A8 /* UIView+TKCategory.m */; };
+		38196AFE17DB6CD300F139A8 /* NSDate+CalendarGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196AFD17DB6CD300F139A8 /* NSDate+CalendarGrid.m */; };
+		38196B0117DB6CF000F139A8 /* TKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196B0017DB6CF000F139A8 /* TKGradientView.m */; };
+		38196B0417DB6D0A00F139A8 /* UIColor+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196B0317DB6D0A00F139A8 /* UIColor+TKCategory.m */; };
+		38196B0717DB6D2700F139A8 /* UIImageView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196B0617DB6D2700F139A8 /* UIImageView+TKCategory.m */; };
+		38196B0917DB6D7700F139A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38196B0817DB6D7700F139A8 /* QuartzCore.framework */; };
+		38196B0D17DB73DB00F139A8 /* ADGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38196B0C17DB73DB00F139A8 /* ADGeneralViewController.m */; };
+		381C820A17EB06780077D339 /* ADNewVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C820917EB06780077D339 /* ADNewVoiceViewController.m */; };
+		381C820D17EB457D0077D339 /* TimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C820C17EB457D0077D339 /* TimerView.m */; };
+		381C821017EB4A6E0077D339 /* ADLevelMetricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C820F17EB4A6E0077D339 /* ADLevelMetricView.m */; };
+		382414C117DC962B00636199 /* day.png in Resources */ = {isa = PBXBuildFile; fileRef = 382414C017DC962B00636199 /* day.png */; };
+		382414C417DCB16F00636199 /* ADAudioRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 382414C317DCB16F00636199 /* ADAudioRecorder.mm */; };
+		382414C717DCB1BD00636199 /* ADAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 382414C617DCB1BD00636199 /* ADAudioPlayer.m */; };
+		382414C917DCB75A00636199 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382414C817DCB75A00636199 /* AudioToolbox.framework */; };
+		3899270C17F0827300BBCA66 /* ADNewNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3899270B17F0827300BBCA66 /* ADNewNoteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38112DA717ED9DE600725487 /* psd-microphone-icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "psd-microphone-icon-small.png"; sourceTree = "<group>"; };
+		38112DA917EDA22500725487 /* psd-microphone-icon-small2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "psd-microphone-icon-small2.png"; sourceTree = "<group>"; };
+		38196ABB17DACA3100F139A8 /* AudioDinary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDinary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38196ABE17DACA3100F139A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38196AC017DACA3100F139A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38196AC217DACA3100F139A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38196AC617DACA3100F139A8 /* AudioDinary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioDinary-Info.plist"; sourceTree = "<group>"; };
+		38196AC817DACA3100F139A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38196ACA17DACA3100F139A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38196ACC17DACA3100F139A8 /* AudioDinary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioDinary-Prefix.pch"; sourceTree = "<group>"; };
+		38196ACD17DACA3100F139A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38196ACE17DACA3100F139A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38196AD017DACA3100F139A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		38196AD217DACA3200F139A8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		38196AD417DACA3200F139A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38196AD717DACA3200F139A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		38196AD917DACA3200F139A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38196ADA17DACA3200F139A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38196AE217DB678500F139A8 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapkuLibrary.bundle; sourceTree = "<group>"; };
+		38196AE417DB67F400F139A8 /* NSDate+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKCategory.h"; sourceTree = "<group>"; };
+		38196AE517DB67F400F139A8 /* NSDate+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKCategory.m"; sourceTree = "<group>"; };
+		38196AE617DB67F400F139A8 /* TKCalendarMonthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthTableViewController.h; sourceTree = "<group>"; };
+		38196AE717DB67F400F139A8 /* TKCalendarMonthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthTableViewController.m; sourceTree = "<group>"; };
+		38196AE817DB67F400F139A8 /* TKCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthView.h; sourceTree = "<group>"; };
+		38196AE917DB67F400F139A8 /* TKCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthView.m; sourceTree = "<group>"; };
+		38196AEA17DB67F400F139A8 /* TKCalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthViewController.h; sourceTree = "<group>"; };
+		38196AEB17DB67F400F139A8 /* TKCalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthViewController.m; sourceTree = "<group>"; };
+		38196AEC17DB67F400F139A8 /* TKGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
+		38196AED17DB67F400F139A8 /* TKGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
+		38196AEE17DB67F400F139A8 /* UIImage+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TKCategory.h"; sourceTree = "<group>"; };
+		38196AEF17DB67F400F139A8 /* UIImage+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TKCategory.m"; sourceTree = "<group>"; };
+		38196AF017DB67F400F139A8 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		38196AF117DB67F400F139A8 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		38196AFC17DB6CD300F139A8 /* NSDate+CalendarGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CalendarGrid.h"; sourceTree = "<group>"; };
+		38196AFD17DB6CD300F139A8 /* NSDate+CalendarGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarGrid.m"; sourceTree = "<group>"; };
+		38196AFF17DB6CF000F139A8 /* TKGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGradientView.h; sourceTree = "<group>"; };
+		38196B0017DB6CF000F139A8 /* TKGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGradientView.m; sourceTree = "<group>"; };
+		38196B0217DB6D0A00F139A8 /* UIColor+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TKCategory.h"; sourceTree = "<group>"; };
+		38196B0317DB6D0A00F139A8 /* UIColor+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TKCategory.m"; sourceTree = "<group>"; };
+		38196B0517DB6D2700F139A8 /* UIImageView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TKCategory.h"; sourceTree = "<group>"; };
+		38196B0617DB6D2700F139A8 /* UIImageView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TKCategory.m"; sourceTree = "<group>"; };
+		38196B0817DB6D7700F139A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38196B0B17DB73DB00F139A8 /* ADGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGeneralViewController.h; sourceTree = "<group>"; };
+		38196B0C17DB73DB00F139A8 /* ADGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGeneralViewController.m; sourceTree = "<group>"; };
+		381C820817EB06780077D339 /* ADNewVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNewVoiceViewController.h; sourceTree = "<group>"; };
+		381C820917EB06780077D339 /* ADNewVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNewVoiceViewController.m; sourceTree = "<group>"; };
+		381C820B17EB457D0077D339 /* TimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerView.h; sourceTree = "<group>"; };
+		381C820C17EB457D0077D339 /* TimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerView.m; sourceTree = "<group>"; };
+		381C820E17EB4A6E0077D339 /* ADLevelMetricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLevelMetricView.h; sourceTree = "<group>"; };
+		381C820F17EB4A6E0077D339 /* ADLevelMetricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLevelMetricView.m; sourceTree = "<group>"; };
+		382414C017DC962B00636199 /* day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day.png; sourceTree = "<group>"; };
+		382414C217DCB16F00636199 /* ADAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAudioRecorder.h; sourceTree = "<group>"; };
+		382414C317DCB16F00636199 /* ADAudioRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ADAudioRecorder.mm; sourceTree = "<group>"; };
+		382414C517DCB1BD00636199 /* ADAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAudioPlayer.h; sourceTree = "<group>"; };
+		382414C617DCB1BD00636199 /* ADAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAudioPlayer.m; sourceTree = "<group>"; };
+		382414C817DCB75A00636199 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3899270A17F0827300BBCA66 /* ADNewNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNewNoteViewController.h; sourceTree = "<group>"; };
+		3899270B17F0827300BBCA66 /* ADNewNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNewNoteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38196AB817DACA3100F139A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382414C917DCB75A00636199 /* AudioToolbox.framework in Frameworks */,
+				38196B0917DB6D7700F139A8 /* QuartzCore.framework in Frameworks */,
+				38196ABF17DACA3100F139A8 /* UIKit.framework in Frameworks */,
+				38196AC117DACA3100F139A8 /* Foundation.framework in Frameworks */,
+				38196AC317DACA3100F139A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38196AB217DACA3100F139A8 = {
+			isa = PBXGroup;
+			children = (
+				382414C817DCB75A00636199 /* AudioToolbox.framework */,
+				38196B0817DB6D7700F139A8 /* QuartzCore.framework */,
+				38196AC417DACA3100F139A8 /* AudioDinary */,
+				38196ABD17DACA3100F139A8 /* Frameworks */,
+				38196ABC17DACA3100F139A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38196ABC17DACA3100F139A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38196ABB17DACA3100F139A8 /* AudioDinary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38196ABD17DACA3100F139A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38196ABE17DACA3100F139A8 /* UIKit.framework */,
+				38196AC017DACA3100F139A8 /* Foundation.framework */,
+				38196AC217DACA3100F139A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38196AC417DACA3100F139A8 /* AudioDinary */ = {
+			isa = PBXGroup;
+			children = (
+				38112DA917EDA22500725487 /* psd-microphone-icon-small2.png */,
+				38112DA717ED9DE600725487 /* psd-microphone-icon-small.png */,
+				38196AE117DB66F500F139A8 /* TapkuLibrary */,
+				38196ACD17DACA3100F139A8 /* AppDelegate.h */,
+				38196ACE17DACA3100F139A8 /* AppDelegate.m */,
+				38196AD617DACA3200F139A8 /* MainStoryboard.storyboard */,
+				38196AD917DACA3200F139A8 /* ViewController.h */,
+				38196ADA17DACA3200F139A8 /* ViewController.m */,
+				38196B0B17DB73DB00F139A8 /* ADGeneralViewController.h */,
+				38196B0C17DB73DB00F139A8 /* ADGeneralViewController.m */,
+				382414C217DCB16F00636199 /* ADAudioRecorder.h */,
+				382414C317DCB16F00636199 /* ADAudioRecorder.mm */,
+				382414C517DCB1BD00636199 /* ADAudioPlayer.h */,
+				382414C617DCB1BD00636199 /* ADAudioPlayer.m */,
+				381C820817EB06780077D339 /* ADNewVoiceViewController.h */,
+				381C820917EB06780077D339 /* ADNewVoiceViewController.m */,
+				381C820B17EB457D0077D339 /* TimerView.h */,
+				381C820C17EB457D0077D339 /* TimerView.m */,
+				381C820E17EB4A6E0077D339 /* ADLevelMetricView.h */,
+				381C820F17EB4A6E0077D339 /* ADLevelMetricView.m */,
+				3899270A17F0827300BBCA66 /* ADNewNoteViewController.h */,
+				3899270B17F0827300BBCA66 /* ADNewNoteViewController.m */,
+				382414C017DC962B00636199 /* day.png */,
+				38196AE217DB678500F139A8 /* TapkuLibrary.bundle */,
+				38196AC517DACA3100F139A8 /* Supporting Files */,
+			);
+			path = AudioDinary;
+			sourceTree = "<group>";
+		};
+		38196AC517DACA3100F139A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38196AC617DACA3100F139A8 /* AudioDinary-Info.plist */,
+				38196AC717DACA3100F139A8 /* InfoPlist.strings */,
+				38196ACA17DACA3100F139A8 /* main.m */,
+				38196ACC17DACA3100F139A8 /* AudioDinary-Prefix.pch */,
+				38196AD017DACA3100F139A8 /* Default.png */,
+				38196AD217DACA3200F139A8 /* Default@2x.png */,
+				38196AD417DACA3200F139A8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38196AE117DB66F500F139A8 /* TapkuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				38196B0517DB6D2700F139A8 /* UIImageView+TKCategory.h */,
+				38196B0617DB6D2700F139A8 /* UIImageView+TKCategory.m */,
+				38196B0217DB6D0A00F139A8 /* UIColor+TKCategory.h */,
+				38196B0317DB6D0A00F139A8 /* UIColor+TKCategory.m */,
+				38196AFF17DB6CF000F139A8 /* TKGradientView.h */,
+				38196B0017DB6CF000F139A8 /* TKGradientView.m */,
+				38196AFC17DB6CD300F139A8 /* NSDate+CalendarGrid.h */,
+				38196AFD17DB6CD300F139A8 /* NSDate+CalendarGrid.m */,
+				38196AE417DB67F400F139A8 /* NSDate+TKCategory.h */,
+				38196AE517DB67F400F139A8 /* NSDate+TKCategory.m */,
+				38196AE617DB67F400F139A8 /* TKCalendarMonthTableViewController.h */,
+				38196AE717DB67F400F139A8 /* TKCalendarMonthTableViewController.m */,
+				38196AE817DB67F400F139A8 /* TKCalendarMonthView.h */,
+				38196AE917DB67F400F139A8 /* TKCalendarMonthView.m */,
+				38196AEA17DB67F400F139A8 /* TKCalendarMonthViewController.h */,
+				38196AEB17DB67F400F139A8 /* TKCalendarMonthViewController.m */,
+				38196AEC17DB67F400F139A8 /* TKGlobal.h */,
+				38196AED17DB67F400F139A8 /* TKGlobal.m */,
+				38196AEE17DB67F400F139A8 /* UIImage+TKCategory.h */,
+				38196AEF17DB67F400F139A8 /* UIImage+TKCategory.m */,
+				38196AF017DB67F400F139A8 /* UIView+TKCategory.h */,
+				38196AF117DB67F400F139A8 /* UIView+TKCategory.m */,
+			);
+			name = TapkuLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38196ABA17DACA3100F139A8 /* AudioDinary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38196ADE17DACA3200F139A8 /* Build configuration list for PBXNativeTarget "AudioDinary" */;
+			buildPhases = (
+				38196AB717DACA3100F139A8 /* Sources */,
+				38196AB817DACA3100F139A8 /* Frameworks */,
+				38196AB917DACA3100F139A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioDinary;
+			productName = AudioDinary;
+			productReference = 38196ABB17DACA3100F139A8 /* AudioDinary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38196AB317DACA3100F139A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = iLife;
+			};
+			buildConfigurationList = 38196AB617DACA3100F139A8 /* Build configuration list for PBXProject "AudioDinary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38196AB217DACA3100F139A8;
+			productRefGroup = 38196ABC17DACA3100F139A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38196ABA17DACA3100F139A8 /* AudioDinary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38196AB917DACA3100F139A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38196AC917DACA3100F139A8 /* InfoPlist.strings in Resources */,
+				38196AD117DACA3100F139A8 /* Default.png in Resources */,
+				38196AD317DACA3200F139A8 /* Default@2x.png in Resources */,
+				38196AD517DACA3200F139A8 /* Default-568h@2x.png in Resources */,
+				38196AD817DACA3200F139A8 /* MainStoryboard.storyboard in Resources */,
+				38196AE317DB678500F139A8 /* TapkuLibrary.bundle in Resources */,
+				382414C117DC962B00636199 /* day.png in Resources */,
+				38112DA817ED9DE600725487 /* psd-microphone-icon-small.png in Resources */,
+				38112DAA17EDA22500725487 /* psd-microphone-icon-small2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38196AB717DACA3100F139A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38196ACB17DACA3100F139A8 /* main.m in Sources */,
+				38196ACF17DACA3100F139A8 /* AppDelegate.m in Sources */,
+				38196ADB17DACA3200F139A8 /* ViewController.m in Sources */,
+				38196AF217DB67F400F139A8 /* NSDate+TKCategory.m in Sources */,
+				38196AF317DB67F400F139A8 /* TKCalendarMonthTableViewController.m in Sources */,
+				38196AF417DB67F400F139A8 /* TKCalendarMonthView.m in Sources */,
+				38196AF517DB67F400F139A8 /* TKCalendarMonthViewController.m in Sources */,
+				38196AF617DB67F400F139A8 /* TKGlobal.m in Sources */,
+				38196AF717DB67F400F139A8 /* UIImage+TKCategory.m in Sources */,
+				38196AF817DB67F400F139A8 /* UIView+TKCategory.m in Sources */,
+				38196AFE17DB6CD300F139A8 /* NSDate+CalendarGrid.m in Sources */,
+				38196B0117DB6CF000F139A8 /* TKGradientView.m in Sources */,
+				38196B0417DB6D0A00F139A8 /* UIColor+TKCategory.m in Sources */,
+				38196B0717DB6D2700F139A8 /* UIImageView+TKCategory.m in Sources */,
+				38196B0D17DB73DB00F139A8 /* ADGeneralViewController.m in Sources */,
+				382414C417DCB16F00636199 /* ADAudioRecorder.mm in Sources */,
+				382414C717DCB1BD00636199 /* ADAudioPlayer.m in Sources */,
+				381C820A17EB06780077D339 /* ADNewVoiceViewController.m in Sources */,
+				381C820D17EB457D0077D339 /* TimerView.m in Sources */,
+				381C821017EB4A6E0077D339 /* ADLevelMetricView.m in Sources */,
+				3899270C17F0827300BBCA66 /* ADNewNoteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38196AC717DACA3100F139A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38196AC817DACA3100F139A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38196AD617DACA3200F139A8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38196AD717DACA3200F139A8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38196ADC17DACA3200F139A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38196ADD17DACA3200F139A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38196ADF17DACA3200F139A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioDinary/AudioDinary-Prefix.pch";
+				INFOPLIST_FILE = "AudioDinary/AudioDinary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38196AE017DACA3200F139A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioDinary/AudioDinary-Prefix.pch";
+				INFOPLIST_FILE = "AudioDinary/AudioDinary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38196AB617DACA3100F139A8 /* Build configuration list for PBXProject "AudioDinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38196ADC17DACA3200F139A8 /* Debug */,
+				38196ADD17DACA3200F139A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38196ADE17DACA3200F139A8 /* Build configuration list for PBXNativeTarget "AudioDinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38196ADF17DACA3200F139A8 /* Debug */,
+				38196AE017DACA3200F139A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38196AB317DACA3100F139A8 /* Project object */;
+}
